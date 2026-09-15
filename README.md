@@ -50,21 +50,6 @@ Leaf pages currently show placeholder rows:
 Replace the `href="#"` with a real Google Drive / PDF link and drop the
 `onclick="return false;"` attribute.
 
-## Deploying
-
-Any static host works. For GitHub Pages:
-
-```bash
-git init
-git add .
-git commit -m "Initial site"
-git branch -M main
-git remote add origin <your-repo-url>
-git push -u origin main
-```
-
-Then enable Pages on the repo (Settings → Pages → Deploy from branch → main
-→ `/root`).
 
 ## Notes
 
